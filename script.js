@@ -9,7 +9,7 @@ btnCommencer.click(() => {
     let nom = userName.val().trim();
     let email = userEmail.val().trim();
     if (nom.length == 0) {
-        errorMessage.text("N'oubliez pas de renseigner votre nom");
+        errorMessage.text("N'oubliez pas de renseigner votre nom"); //le nom de peut pas être vide
     } else if (nom.length < 3) {
         errorMessage.text("Entrez un nom valide");
     } else {
