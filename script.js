@@ -11,7 +11,7 @@ btnCommencer.click(() => {
     if (nom.length == 0) {
         errorMessage.text("N'oubliez pas de renseigner votre nom"); //le nom de peut pas être vide
     } else if (nom.length < 3) {
-        errorMessage.text("Entrez un nom valide");
+        errorMessage.text("Entrez un nom valide"); //affichage d'erreur
     } else {
         errorMessage.text("");
     }
